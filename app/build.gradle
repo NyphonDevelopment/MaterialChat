@@ -1,15 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        MaterialChat {
+            keyAlias 'Nyphon Development'
+            keyPassword '78*98*22'
+            storeFile file('C:/Users/Ralph Schuler/Documents/GitHub/MaterialChat/Keystore.jks')
+            storePassword '#NyphonDevelopment'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
         applicationId "de.nyphon.materialchat"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
+        signingConfig signingConfigs.MaterialChat
     }
     buildTypes {
         release {
@@ -17,11 +25,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.google.code.gson:gson:2.3.1'
-
 }

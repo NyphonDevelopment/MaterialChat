@@ -274,10 +274,4 @@
     <color name="blue_grey_700">#455a64</color>
     <color name="blue_grey_800">#37474f</color>
     <color name="blue_grey_900">#263238</color>
-
-
-    <!-- Colors for the app -->
-    <color name="primary">@color/indigo_500</color>
-    <color name="primary_dark">@color/indigo_700</color>
-    <color name="accent">@color/pink_A200</color>
 </resources>
