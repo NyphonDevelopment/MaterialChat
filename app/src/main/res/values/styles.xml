@@ -5,12 +5,9 @@
     </style>
 
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/green_500</item>
-        <item name="colorPrimaryDark">@color/green_700</item>
-        <item name="colorAccent">@color/green_900</item>
-
-        <item name="android:padding">10dp</item>
-        <item name="android:background">@color/blue_grey_500</item>
+        <item name="colorPrimary">@color/green_300</item>
+        <item name="colorPrimaryDark">@color/green_500</item>
+        <item name="colorAccent">@color/green_700</item>
     </style>
 
 </resources>

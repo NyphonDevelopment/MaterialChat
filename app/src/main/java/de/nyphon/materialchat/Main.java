@@ -1,9 +1,7 @@
 package de.nyphon.materialchat;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
 
 
 public class Main extends ActionBarActivity {
@@ -12,5 +10,11 @@ public class Main extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
     }
 }
