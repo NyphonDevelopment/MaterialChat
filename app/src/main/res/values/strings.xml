@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MaterialChat</string>
     <string name="app_copyright">© 2015 - 2015 by Nyphon Development</string>
+    <string name="btn_send">Send</string>
 </resources>
